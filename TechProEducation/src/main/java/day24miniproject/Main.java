@@ -14,7 +14,7 @@ public class Main {
         while (true) {
             System.out.println("Enter employee type (1: Full-Time, 2: Part-Time, 3: Manager, 4: Intern, 5: Contract, 0: Exit):");
             int employeeType = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             if (employeeType == 0) {
                 break;
@@ -82,13 +82,6 @@ public class Main {
         }
 
         scanner.close();
-
-
-
-
-
-
-
 
 
     }
